@@ -1,0 +1,49 @@
+# Environment files
+.env
+.env.*
+*.env
+
+# Secrets and credentials
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*token*
+*credentials*
+
+# Dynatrace sensitive configuration
+dynakube-secret.yaml
+dynatrace-secret.yaml
+
+# Kubernetes local configuration
+.kube/
+kubeconfig
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
